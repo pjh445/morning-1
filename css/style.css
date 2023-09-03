@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {margin:0; padding:0; box-sizing:border-box;}
+body {color:#666;}
+img  {display:block; max-width:100%;}
+a    {color:#666; text-decoration:none;}
+a:hover {color:#004f8a; text-decoration:underline;}
+
+#layout {width:1000px; margin:auto;}
+
+header  {display:flex; align-items:center; padding:20px 0;}
+#logo 	{}
+nav 	{flex:1; margin-left:150px; display:flex;}
+nav a  	{flex:1; text-align:center; padding:10px; font-weight:bold;}
+nav a:hover {background:#004f8a; color:white; text-decoration:none;}
+
+#banner h1 {display:none;}
+
+
+main  {display:flex; padding-top:50px;}
+main h2 {border-bottom:3px solid #d1d1d1; margin-bottom:20px; padding-bottom:5px;}
+
+#notice   {flex:1;}
+#notice ol {list-style:none; line-height:180%;}
+#notice li {letter-spacing:-1pt;}
+#notice a:hover {}
+#notice span {float:right;}
+
+#partner  {flex:1; margin:0 60px;}
+#partner section {margin-top:20px; display:flex; align-items:center;}
+#partner h3 {width:140px; height:140px; background:#777; border-radius:50%; color:white; font-size:1.15rem; text-align:center; padding-top:45px; letter-spacing:-1.2pt;}
+#partner ul {list-style-position:inside; margin-left:20px;}
+
+#icon     {padding-top:30px;}
+#icon h3  {display:none;}
+#icon a   {margin-bottom:10px; display:block;}
+
+
+footer   {background:#eee; display:flex; padding:20px 50px; margin-top:40px;}
+footer p {flex:1;}
+footer p:first-child {flex:0.7;}
+footer p:last-child {flex:0.8;}
+footer a {display:block;}
+
+
+
+
+
